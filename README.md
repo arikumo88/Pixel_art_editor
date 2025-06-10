@@ -19,6 +19,10 @@ pnpm install
 pnpm dev
 ```
 
+## Python 連携
+
+バックエンド処理を Python スクリプトで実行する簡単な API を追加しました。`app/api/python` に POST すると、`python/hello.py` が呼び出され JSON を返します。
+
 ## ライセンス
 
 MIT 
